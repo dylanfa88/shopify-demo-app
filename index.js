@@ -10,8 +10,8 @@ const ShopifyToken = require('shopify-token');
 
 const apiKey            = process.env.SHOPIFY_API_KEY;
 const apiSecret         = process.env.SHOPIFY_API_SECRET;
+const forwardingAddress = process.env.ForwardingAddress;
 const scopes            = 'write_products';
-const forwardingAddress = 'https://8bdb04a1.ngrok.io';
 
 const shopifyToken = new ShopifyToken({
     apiKey       : apiKey,
