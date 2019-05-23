@@ -25,7 +25,7 @@ Download the ngrok tool and run the following script to create a tunnel to local
 ./ngrok http 3000
 ```
 
-Finally run the script, and navigate to /shopify on your ngrok url.
+Fill up the information in the .env file then run the script, and navigate to /shopify on your ngrok url.
 
 ```bash
 node index.js
